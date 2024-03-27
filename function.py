@@ -14,3 +14,12 @@ def isEven(n):
     print("isEven(",  n ,")=", result)
     return result
 isEven(13)
+
+def isNumber(x):
+    # result = (n%2==0)
+    # print("isEven(",  n ,")=", result)
+    return ((type(x)==int) or (type(x)==float))
+print(isNumber("12"))
+
+
+
