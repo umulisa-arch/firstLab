@@ -19,5 +19,5 @@ def distance(x1, y1, x2, y2):
 
 # Example usage:
 x1, y1 = 7, 2
-x2, y2 = 4, 0
+x2, y2 = 4, 9
 print(distance(x1, y1, x2, y2))  # Output will be 5.0
