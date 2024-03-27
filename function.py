@@ -19,7 +19,8 @@ def isNumber(x):
     # result = (n%2==0)
     # print("isEven(",  n ,")=", result)
     return ((type(x)==int) or (type(x)==float))
-print(isNumber("12"))
+print(isNumber("12"),(isNumber(12)))
+
 
 
 
