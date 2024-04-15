@@ -20,5 +20,18 @@ from dataclasses import make_dataclass
 
 # Dog  = make_dataclass()
 
+#forth constructor
+class Dogs(object):
+    def __init__(self, name, age):
+        self.name = name
+        self.age  = age
+    
+    def bark(self, times):
+        
+d1 = Dogs('Dot', 10)
+d2 = Dogs('helliman', 12)
+print("dog1 is:", d1)
+        
+
 
 
