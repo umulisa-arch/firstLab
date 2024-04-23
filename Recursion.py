@@ -20,3 +20,17 @@ def power(base: int, exp: int):
         return base * power (base, exp-1)
 
 print("The power will be: ", power(2, 6))
+# print("The powe of this is:L ", power(2, -2) )
+
+
+print("Here is the third one:\n")
+
+def interleave(list1, list2):
+    if(len(list1) == 0):
+        return list2
+    elif(len(list2) == 0):
+        return list1
+    else:
+        return [list1[0], list2[0]] + interleave(list1[1:], list2[1:])
+    
+print("The output will be: ", interleave([2,4,5], [4,6,7,10]))
