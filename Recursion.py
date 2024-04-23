@@ -33,4 +33,15 @@ def interleave(list1, list2):
     else:
         return [list1[0], list2[0]] + interleave(list1[1:], list2[1:])
     
-print("The output will be: ", interleave([2,4,5], [4,6,7,10]))
+print("The output will be: \n ", interleave([2,4,5], [4,6,7,10]))
+
+print("Here is the forth one: \n")
+
+def sumToN(n):
+    if n == 0:
+        return 0
+    else:
+        return n + sumToN(n-1)
+
+n = int(input("Enter value of n: "))    
+print(f"Here is the sum to {n}: ", sumToN(n))
